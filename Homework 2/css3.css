@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.block-1 {
+    height: 500px;
+    background-color: #0094fd;
+    margin: 0 0 45px 0;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-1, .flex-2, .flex-3 {
+    width: 600px;
+    height: 600px;
+    background-color: #0048fd;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 45px 0;
+}
+
+.block-2 {
+    height: 800px;
+    background-color: #0094fd;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
