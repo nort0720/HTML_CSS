@@ -1,0 +1,56 @@
+.main  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    background-color: rgba(106, 250, 108, 0.31);
+}
+
+.one, .two, .three, .four, .five, .six {
+    width: 100px;
+    height: 100px;
+    background-color: #de5114;
+}
+
+.one:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
+.two:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
+.three:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
+.four:hover {    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
+
+.five:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
+.six:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(39, 158, 238, 0.7);
+    transition: 1s;
+}
