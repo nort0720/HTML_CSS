@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+* {
+    margin: 0;
+}
+
+.first, .second, .third {
+    height: 100vh;
+}
+
+.first {
+    background-image: url(img/image4.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    height: 392.8px;
+    width: 1058.4px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-image: url(img/left-bg.jpg);
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#block-1, #p-block-1, button, .text, .third-1, .third-2, .third-3 {
+    color: #000;
+    font-family: KoHo;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#block-1 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+}
+
+#p-block-1 {
+    font-size: 25px;
+}
+
+#button-first-block, #button-third-block {
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#button-first-block {
+    width: 22vw;
+    height: 7vh;
+    font-size: 30px;
+}
+
+.second {
+    background-image: url(img/Rectangle4.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 816px;
+    width: 949px;
+}
+
+.text {
+    display: block;
+    font-size: 25px;
+    height: 18vh;
+}
+
+.third {
+    background-image: url(img/Rectangle16.png);
+    background-size: cover;
+}
+
+.flex-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.third-1, .third-2, .third-3 {
+    background: rgba(83, 83, 83, 0.40);
+    width: 453.6px;
+    height: 700px;
+}
+
+.top-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    font-size: 35px;
+}
+
+#top-1 {
+    width: 408.6px;
+    height: 214px;
+    margin: 20px 20px 0 20px;
+}
+
+.bottom-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    font-size: 35px;
+}
+
+.bottom-1-1 {
+    margin-bottom: 25px;
+}
+
+#button-third-block {
+    width: 410px;
+    height: 76px;
+    font-size: 35px;
+    color: #6B6666;
+}

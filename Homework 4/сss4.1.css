@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.top {
+    height: 50vh;
+    width: 25vw;
+    border: 2px solid grey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 25vw;
+}
+
+img {
+    height: 13vh;
+    width: 17vw;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 6vh;
+}
+
+input {
+    width: 20vw;
+    border: 1px solid grey;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(122, 179, 244);
+    width: 20vw;
+    height: 3vh;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.link-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 5vh;
+}
+
+.first-link, .second-link, .bottom, .bottom-link {
+    text-decoration: none;
+}
+
+.first-link {
+    margin-left: 5px;
+}
+
+.link-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 8vh;
+    margin-top: 15px;
+    border: 2px solid grey;
+}
+
+.bottom-link {
+    margin-left: 5px;
+    color: rgb(12, 103, 250);
+}
