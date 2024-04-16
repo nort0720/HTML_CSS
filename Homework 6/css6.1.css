@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+.a {
+    height: 30vh;
+    background-color: maroon;
+}
+.b-plus-c {
+    display: flex;
+    flex-direction: row;
+}
+.b {
+    height: 70vh;
+    width: 60vw;
+    background-color: mediumaquamarine;
+}
+.c {
+    width: 40vw;
+    background-color: mediumpurple;
+}

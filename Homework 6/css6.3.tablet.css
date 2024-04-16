@@ -1,0 +1,58 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+    }
+    .links {
+        height: 15vh;
+        width: 40vw;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+    }
+    .banner {
+        height: 35vh;
+        background-color: yellow;
+    }
+    .articles {
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .article-1-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .article-1 {
+        width: 50%;
+        height: 100%;
+        background-color: darkcyan;
+    }
+    .article-2 {
+        width: 50%;
+        height: 100%;
+        background-color: darkolivegreen;
+    }
+    .article-3-4 {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .article-3 {
+        width: 50%;
+        height: 100%;
+        background-color: darkorange;
+    }
+    .article-4 {
+        width: 50%;
+        height: 100%;
+        background-color: indianred;
+    }
+    .footer {
+        height: 15vh;
+        background-color: maroon;
+    }
+}

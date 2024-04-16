@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+    .a {
+        height: 20vh;
+        background-color: maroon;
+    }
+    .b-plus-c {
+        display: flex;
+        flex-direction: column;
+    }
+    .b {
+        width: 100%;
+        height: 60vh;
+        background-color: mediumaquamarine;
+    }
+    .c {
+        width: 100%;
+        height: 20vh;
+        background-color: mediumpurple;
+    }
+}

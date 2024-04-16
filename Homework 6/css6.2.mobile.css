@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+    .top {
+        height: 20vh;
+        background-color: green;
+    }
+    .content {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .wrapper {
+        display: flex;
+        width: 100%;
+    }
+    .left {
+        height: 60vh;
+        width: 100%;
+    }
+    .three-in-line {
+        height: 30%;
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+    }
+    .b {
+        height: 70%;
+        width: 100%;
+        background-color: bisque;
+    }
+    .c {
+        height: 100%;
+        width: 33.3%;
+        background-color: red;
+    }
+    .d {
+        height: 100%;
+        width: 33.3%;
+        background-color: rgb(29, 220, 234);
+    }
+    .e {
+        height: 100%;
+        width: 33.3%;
+        background-color: rgb(152, 29, 234);
+    }
+    .right {
+        height: 20vh;
+        width: 100%;
+        background-color: khaki;
+    }
+}

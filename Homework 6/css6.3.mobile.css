@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .links {
+        height: 10vh;
+        width: 100%;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        height: 40vh;
+        background-color: yellow;
+    }
+    .articles {
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-1-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .article-1 {
+        height: 50%;
+        background-color: darkcyan;
+    }
+    .article-2 {
+        height: 50%;
+        background-color: darkolivegreen;
+    }
+    .article-3-4 {
+        width: 100%;
+        height: 100%;
+    }
+    .article-3 {
+        height: 50%;
+        background-color: darkorange;
+    }
+    .article-4 {
+        height: 50%;
+        background-color: indianred;
+    }
+    .footer {
+        height: 10vh;
+        background-color: maroon;
+    }
+}

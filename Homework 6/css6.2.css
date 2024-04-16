@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+.top {
+    height: 33.3vh;
+    background-color: green;
+}
+.content {
+    width: 100vw;
+    height: 66.7vh;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    height: 66.7vh;
+    width: 65vw;
+    background-color: yellow;
+}
+.three-in-line {
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.b {
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+}
+.c {
+    height: 100%;
+    width: 33.3%;
+    background-color: red;
+}
+.d {
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(29, 220, 234);
+}
+.e {
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(152, 29, 234);
+}
+.right {
+    height: 66.7vh;
+    width: 35vw;
+    background-color: khaki;
+}
